@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 const port = process.env.PORT || 8000;
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static("public"));
 /* 
     Incase you are using mongodb atlas database uncomment below line
     and replace "mongoAtlasUri" with your mongodb atlas uri.
