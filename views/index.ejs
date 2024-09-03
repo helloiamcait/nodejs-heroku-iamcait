@@ -16,125 +16,144 @@
 
 </head>
 <body>
-
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mt-2 mt-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        
-        
-        <div class="jumbotron jumbotron-image text-center mb-2" style="background-image: url(
-        /images/header.jpg
-        );" alt="Hello, I am Cait.">
-            
-        </div>
-    </header>
-            <main>
-                <!-- ABOUT ME -->
-                <section id="about-me" class=" py-5  py-md-3" >
-                    <div class="row justify-content-center py-5">
-                        <div class="col-10">
-                            <div class="mb-4">
-                                <h2 class="pb-2">About Me</h2>
-                                <lead class="text-muted">Before diving into software engineering, my career path has meandered through documentary filmmaking, clinical psychology research, computer game project management and design. This eclectic mix has equipped me with a unique set
-                                of skills and perspectives. I approach problem-solving with creativity, empathy, and an
-                                interdisciplinary mindset that I believe are my strengths in this new adventure.</lead>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                <!-- PORTFOLIO -->
-                <section id="portfolio" class=" py-5 py-md-3 blue-bg">
-                    <div class="row justify-content-center my-5 py-5">
-                        <div class="col-10">
-                            <div class="mb-4">
-                                <h2 class="pb-2">Portfolio</h2>
-                                <lead class="text-muted">My portfolio reflects my initial steps in learning to code and develop applications. Each project builds upon the last as I learn. From simple web pages to small
-                                    applications, these projects represent my journey of growth and exploration in the digital realm.</lead>
-                            </div>
-                            <div class="card-columns">
-                                <div class="card p-3">
-                                    <img src="/images/quick-book-search.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Quick Book Search</h5>
-                                        <p class="card-text">This is a website I created using the <a href="https://openlibrary.org/" target="_blank">Open Library</a> API. Quick Book Search helps you find top authors of niche genres. Authors are listed in alphabetical order to make it easier to scan library and bookstore bookshelves.</p>
-                                        <a href="https://book-search.iamcait.com/" class="stretched-link" target="_blank"></a>
-                                    </div>
-                                </div>
-                                <div class="card p-3">
-                                    <blockquote class="blockquote mb-0 card-body">
-                                        <p>If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about
-                                        solutions.</p>
-                                        <footer class="blockquote-footer">
-                                            <small class="text-muted">
-                                                Albert Einstein
-                                            </small>
-                                        </footer>
-                                    </blockquote>
-                                </div>
-                                <div class="card p-3">
-                                    <img src="/images/couple-hopes.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Couple HOPES</h5>
-                                        <p class="card-text">Couple Hopes is an online intervention for PTSD symptoms. I redesigned, prototyped, developed, and wrote copy for theirg website, which led to a 124% increase in study sign-ups.</p>
-                                        <a href="https://couplehopes.com/" class="stretched-link" target="_blank"></a>
-                                    </div>
-                                </div>
-                                <div class="card p-3">
-                                    <img src="/images/shopify-site.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Dr. Candice Monson</h5>
-                                        <p class="card-text">This is a portfolio and e-commerce website I designed and developed for Dr. Candice Monson, a clinical psychologist. The website showcases her accomplishments and affiliations, and is a platform for seling tickets to her workshops.</p>
-                                        <a href="https://candicemonson.com/" class="stretched-link" target="_blank"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Contact -->
-                <section id="contact" class="py-5  py-md-3">
-                    <div class="row justify-content-center d-flex my-5 py-5">
-                        <div class="col-10 ">
-                            <div class="mb-4">
-                                <h2 class="pb-2">Contact</h2>
-                            </div>
-                            <div class="row">
-                                <i class="bi bi-github pr-3 pb-3"></i>
-                                <a href="https://github.com/helloiamcait">helloiamcait</a>
-                            </div>
-                            <div class="row">
-                                <i class="bi bi-envelope pr-3"></i>
-                                <a href="mailto:hello@iamcait.com">hello@iamcait.com</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </section>
-            </main>
- 
-            
+    <div class="container">
     
+    <header class="blog-header py-3">
+        
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-12 text-center">
+                <a class="blog-header-logo text-dark"><h1>Cait Martin Newnham</h1></a>
+            </div>
+        </div>
 
+
+    </header>
+        
+    <nav class="nav d-flex justify-content-center align-items-center nav-scroller py-1 mb-2">
+        <a class="p-2 text-muted" href="#projects">Projects</a>
+        <a class="p-2 text-muted" href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 font-italic">Code, creativity and clarity</h1>
+                <p class="lead my-3">I'm Cait, a developer with a passion for problem-solving and design. With a background spanning science, journalism,
+                and tech, I create solutions that blend creativity and logic.</p>
+            </div>
+        </div>
+        
+        <!-- PROJECTS -->
+        <section id="projects" class=" py-5 py-md-3 ">
+            <div class="row justify-content-center my-2 py-2">
+                <div class="col-12">
+                    
+                    <h2 class="pb-3 mb-4 font-italic border-bottom">Projects</h2>
+                    
+                    <div class="card-columns">
+                        <div class="card p-3">
+                            <img src="/images/quick-book-search.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Quick Book Search</h5>
+                                <p class="card-text">Quick Book Search helps you find top authors of niche genres. Authors are listed in alphabetical order to make it easier to scan library and bookstore shelves. This is a website uses the <a href="https://openlibrary.org/" target="_blank">Open Library</a> API.</p>
+                                
+                                <div class="row">
+                                    <i class="bi bi-link-45deg pl-3 pr-2 pb-1"></i>
+                                    <a href="https://book-search.iamcait.com/" target="_blank">Visit website</a>
+                                </div>
+
+                                
+                                <div class="row">
+                                    <i class="bi bi-github pl-3 pr-2 pb-3"></i>
+                                    <a href="https://github.com/helloiamcait/quick-book-search-app" target="_blank">Visit project repository</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card p-3 bg-dark text-white">
+                            <blockquote class="blockquote mb-0 card-body">
+                                <p>If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about
+                                solutions.</p>
+                                <footer class="blockquote-footer">
+                                    <small class="text-white">
+                                        Albert Einstein
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+
+                        <div class="card p-3">
+                            <img src="/images/connect-four.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Connect 4</h5>
+                                <p class="card-text">Take turns placing disks until either you or the computer has four disks in a row
+                                    (horizontally, vertically or
+                                    diagonally).</p>
+                        
+                                <div class="row">
+                                    <i class="bi bi-github pl-3 pr-2 pb-3"></i>
+                                    <a href="https://github.com/helloiamcait/connect-four" target="_blank">Visit project repository</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                        <div class="card p-3">
+                            <img src="/images/couple-hopes.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Couple HOPES</h5>
+                                <p class="card-text">Couple Hopes is an online intervention for PTSD symptoms. I redesigned, prototyped, developed, and wrote copy for theirg website, which led to a 124% increase in study sign-ups.</p>
+                                
+                                <div class="row">
+                                    <i class="bi bi-link-45deg pl-3 pr-2 pb-1"></i>
+                                    <a href="https://couplehopes.com/" target="_blank">Visit website</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card p-3">
+                            <img src="/images/shopify-site.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dr. Candice Monson</h5>
+                                <p class="card-text">This is a portfolio and e-commerce website I designed and developed for Dr. Candice Monson, a clinical psychologist. The website showcases her accomplishments and affiliations, and is a platform for seling tickets to her workshops.</p>
+                                
+                                <div class="row">
+                                    <i class="bi bi-link-45deg pl-3 pr-2 pb-1"></i>
+                                    <a href="https://candicemonson.com/" target="_blank">Visit website</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-5  py-md-3">
+            <div class="row justify-content-center d-flex my-5 py-5">
+                <div class="col-12">
+                    <h2 class="pb-3 mb-4 font-italic border-bottom">Contact</h2>
+                    
+                    <div class="row">
+                        <i class="bi bi-github pl-3 pr-3 pb-3"></i>
+                        <a href="https://github.com/helloiamcait">helloiamcait</a>
+                    </div>
+                    
+                    <div class="row">
+                        <i class="bi bi-envelope pl-3 pr-3"></i>
+                        <a href="mailto:hello@iamcait.com">hello@iamcait.com</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+ 
+            </div>
+    
+    
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

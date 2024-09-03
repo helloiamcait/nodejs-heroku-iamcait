@@ -2,6 +2,17 @@ body {
     color: #3D4851;
 }
 
+h1,
+h2,
+h5 {
+    font-family: "Playfair Display",
+            Georgia,
+            "Times New Roman",
+            serif;
+            font-weight: 500
+            ;
+}
+
 a {
     color: #5F7E9A;
 }
@@ -15,20 +26,25 @@ a:hover {
     opacity: 96%;
 }
 
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
 .nav-link {
     color: #5F7E9A !important;
 }
 
-.jumbotron {
-    height: 100vh;
+/* .jumbotron {
+    height: 30vh;
 }
 
 .jumbotron-image {
-    background-position: bottom left;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
 
 .mobile-header {
     display: none;
@@ -65,25 +81,21 @@ section {
 }
 
 .card {
-    border-radius: 20px;
-    border-color: white;
+    border-radius: .25rem;
+    border-color: none;
 }
 
 .card-columns {
-    column-count: 2;
+    column-count: 3;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 500 !important;
 }
 
 @media (max-width: 768px) {
     .card-columns {
         column-count: 1;
-    }
-
-    .jumbotron {
-        height: 40vh;
-        background-color: white;
-    }
-
-    .jumbotron-image {
-        background-position: center left;
     }
 }
