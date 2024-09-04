@@ -117,13 +117,15 @@ section {
 }
 
 .card-columns {
-    column-count: 3;
+    column-count: 2;
 }
 
 .card-title {
     font-size: 1.75rem;
     font-weight: 500 !important;
 }
+
+
 
 @media (max-width: 768px) {
     .card-columns {
