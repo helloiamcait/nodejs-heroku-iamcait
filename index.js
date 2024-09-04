@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
+app.get("/about", (req, res) => {
+  res.render("about.ejs");
+});
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });

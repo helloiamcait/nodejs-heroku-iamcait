@@ -4,6 +4,7 @@ body {
 
 h1,
 h2,
+h3,
 h5 {
     font-family: "Playfair Display",
             Georgia,
@@ -13,13 +14,19 @@ h5 {
             ;
 }
 
+h3 {
+    font-size: 1.25rem;
+}
+
+
+
 a {
     color: #5F7E9A;
 }
 
 a:hover {
     color: #3D4851;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .bg-white {
@@ -35,6 +42,18 @@ a:hover {
     color: #5F7E9A !important;
 }
 
+nav {
+    a.active {
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        text-decoration-color: #e5e5e5;
+    }
+    a:hover {
+        text-decoration: underline;
+        text-underline-offset: 6px;
+    }
+}
+
 /* .jumbotron {
     height: 30vh;
 }
@@ -45,6 +64,18 @@ a:hover {
     background-size: cover;
 
 } */
+.emphasize {
+    font-family: "Playfair Display",
+        Georgia,
+        "Times New Roman",
+        serif;
+        font-weight: 700 ;
+       
+}
+
+.active {
+    text-decoration: underline;
+}
 
 .mobile-header {
     display: none;
@@ -98,4 +129,5 @@ section {
     .card-columns {
         column-count: 1;
     }
+
 }
