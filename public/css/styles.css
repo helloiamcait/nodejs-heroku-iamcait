@@ -133,3 +133,88 @@ section {
     }
 
 }
+
+.badge-js {
+    background-color: #cde7ee;
+    /* Yellow-ish for JS, still readable */
+    color: #212529;
+}
+
+.badge-python {
+    background-color: #4B8BBE;
+    color: white;
+}
+
+.badge-node {
+    background-color: #007396;
+    /* Node blue-ish */
+    color: white;
+}
+
+.badge-express {
+    background-color: #343a40;
+    /* Same as dark */
+    color: white;
+}
+
+.badge-liquid {
+    background-color: #1e90ff;
+    /* DodgerBlue */
+    color: white;
+}
+
+.badge-ejs {
+    background-color: #5dade2;
+    /* Light-ish blue */
+    color: white;
+}
+
+.badge-uiux {
+    background-color: #f8d7a0;
+    color: #7a4f01;
+}
+
+.badge-accessibility {
+    background-color: #ffa94d;
+    color: #5c2d00;
+}
+
+.badge-fullstack {
+    background-color: #6c757d;
+    /* Bootstrap secondary */
+    color: white;
+}
+
+.badge-frontend {
+    background-color: #cad1d7;
+    color: #212529;
+}
+
+.badge-shopify {
+    background-color: #567029;
+    /* Shopify brand */
+    color: white;
+}
+
+.badge-ecommerce {
+    background-color: #c3e6cb;
+    color: #155724;
+}
+
+.badge-api {
+    background-color: #198754;
+    /* Bootstrap success darker */
+    color: white;
+}
+
+.badge-data {
+    background-color: #d2e7dd;
+    /* Bootstrap info */
+    color: black;
+}
+
+.badge-game {
+    background-color: #dc3545;
+    /* Bootstrap danger */
+    color: white;
+}
